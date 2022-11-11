@@ -50,7 +50,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 
@@ -906,7 +906,7 @@ CDN:
     # main:
     # utils:
     # translate:
-    # local_search:
+    #local_search:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
