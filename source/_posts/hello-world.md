@@ -37,6 +37,8 @@ $ hexo deploy
 
 test
 
+## test ##
+
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 主题文档查看 https://butterfly.js.org/
