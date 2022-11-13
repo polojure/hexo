@@ -123,7 +123,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-      - /img/index.jpg
+      - https://api.ixiaowai.cn/api/api.php
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
