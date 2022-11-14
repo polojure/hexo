@@ -76,7 +76,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://img-cnd.noel.ga/blog/avatar/logo_transparent.png
 
 # Avatar (頭像)
 avatar:
