@@ -1,3 +1,18 @@
+---
+title: qemu半虚拟化技术
+date: 2022.11.16
+updated:
+type: 
+comments:
+description:
+keywords:
+top_img: 
+mathjax:
+katex:
+aside:
+aplayer:
+highlight_shrink:
+---
 基本原理：用qemu-user半虚拟化技术与Docker技术融合。  
 实验环境：Ubuntu16.04 (Ubuntu14.04亲测可用) docker version 1.13.0  
 首先，安装qemu-user安装包，并更新qemu-arm的状态：
