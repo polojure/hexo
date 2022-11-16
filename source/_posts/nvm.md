@@ -4,7 +4,7 @@ title: nvm文档手册 - nvm是一个nodejs的版本管理工具
 description: NVM中文网:nvm一个nodejs的版本管理工具,为windows或mac提供nodejs各种版安装配置详情教程,包括nvm安装,nvm教程,nvm命令中文文档教程。
 keywords: nvm,nvm管理工具,nvm安装,nvm教程,nvm命令
 author: null
-date: null
+date: 2022.11.14
 publisher: nvm
 stats: paragraph=77 sentences=97, words=352
 ---
