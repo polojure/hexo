@@ -7,6 +7,15 @@ author: null
 date: 2022.11.14
 publisher: nvm
 stats: paragraph=77 sentences=97, words=352
+updated:
+type: 
+comments:
+top_img: https://img-cnd.noel.ga/blog/covers/2.jpg
+mathjax:
+katex:
+aside:
+aplayer:
+highlight_shrink:
 ---
 ### nvm是什么
 
