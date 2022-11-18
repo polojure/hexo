@@ -111,4 +111,6 @@ deploy:
 search:
   field: post
   content: true
- 
+# hexo-admin authentification
+admin:
+  deployCommand: ./hexo-deploy.sh
