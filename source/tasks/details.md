@@ -11,6 +11,7 @@ mathjax:
 katex:
 aside:
 aplayer:
+tasks: tasks
 highlight_shrink:
 ## 1.程序长度复杂度c1
 
