@@ -4,6 +4,7 @@ date: {{ date }}
 updated: 
 type: 
 comments:
+cover:
 description: 
 keywords:
 top_img: 
