@@ -107,18 +107,8 @@ V（G） ≥ 16，代码必须进行重构、
 > 	Implementing the actual definition of Harrison’s complexity would introduce redundancy with the Halstead’s complexity (the µ1 complexity) and McCabe’s complexity as this complexity tries to replace both of these complexities. Therefore, we redefined the µ3 complexity of a module as the maximum depth of predicate nesting in the module. This new definition will complement MacCabe’s complexity. MacCabe’s complexity will stimulate the appearance of predicates and our µ3 complexity will stimulate their nesting (and only their nesting). Like in the compute_mu1_complexity and the compute_mu2_complexity passes, the AST of the module is analysed to find the maximum depth of the module’s statements in the module. The internal representation of Pips representing switch statement as nested test statements, the depth of a case is its rank in the list of cases of the switch statement. On the example of figure 2, the calculated µ3 complexity of the main module is 2.
 
 3.1.3 µ3复杂性（嵌套复杂性）
-	Harrison[7]定义的嵌套复杂度使用程序的CFG来考虑节点的嵌套。
-节点来衡量一个程序的复杂性。对于控制流的每一个节点，程序的复杂度由
-程序的复杂度由该节点的Halstead's复杂度加上其范围内的节点数量来增加。
-其范围内的节点数加上这些节点的Halstead's复杂度。
-	实施Harrison复杂度的实际定义会引入Halstead复杂度（µ1复杂度）和McCabe复杂度的冗余，因为这个复杂度试图取代这两个复杂度。
-这些复杂度。因此，我们将模块的µ3复杂度重新定义为模块中谓词嵌套的最大深度。
-谓词在模块中嵌套的最大深度。这个新定义将补充MacCabe的复杂性。MacCabe的
-复杂度将刺激谓词的出现，而我们的µ3复杂度将刺激它们的嵌套（而且只是嵌套）。像在 compute_mu1_complexity 和 compute_mu2_complexity
-中一样，对模块的AST进行分析，找出模块中语句的最大深度。
-模块中语句的最大深度。Pips的内部表示法将switch语句表示为嵌套测试语句。
-一个案例的深度是它在switch语句的案例列表中的等级。在图2的例子中。
-计算出的主模块的µ3复杂度为2。
+	哈里森[7]定义的嵌套复杂度在测量程序的复杂度时使用程序的CFG来考虑节点的嵌套。对于控制流的每个节点，程序的复杂度由该节点的Halstead复杂度加上其范围内的节点数量加上每个节点的Halstead复杂度来增加。
+	实施Harrison复杂度的实际定义会引入Halstead复杂度（µ1复杂度）和McCabe复杂度的冗余，因为这种复杂度试图取代这两种复杂度。因此，我们将模块的μ3复杂度重新定义为模块中谓词嵌套的最大深度。这个新定义将补充MacCabe的复杂性。MacCabe的复杂性将刺激谓词的出现，而我们的µ3复杂性将刺激它们的嵌套（而且只是嵌套）。就像在compute_mu1_complexity和compute_mu2_complexity传递中，模块的AST被分析，以找到模块中语句的最大深度。Pips的内部表示法将switch语句作为嵌套的测试语句，一个案例的深度是它在switch语句的案例列表中的等级。在图2的例子中，计算出的主模块的µ3复杂度为2。
 
 通过www.DeepL.com/Translator（免费版）翻译
 
@@ -126,15 +116,13 @@ V（G） ≥ 16，代码必须进行重构、
 
 3.1.3 µ3复杂度（嵌套复杂度）
 
-​	 Harrison[7]定义的嵌套复杂度在衡量程序的复杂度时使用程序的CFG来考虑节点的嵌套。对于控制流的每个节点，程序的复杂性增加了该节点的 Halstead 复杂性加上其范围内的节点数加上每个节点的 Halstead 复杂性。 实施 Harrison 复杂度的实际定义会引入 Halstead 复杂度（µ1 复杂度）和 McCabe 复杂度的冗余，因为这种复杂度试图取代这两种复杂度。因此，我们将一个模块的μ3复杂度重新定义为该模块中谓词嵌套的最大深度。这个新定义将补充 MacCabe 的复杂性。 MacCabe 的复杂性会刺激谓词的出现，而我们的 µ3 复杂性会刺激它们的嵌套（而且只是它们的嵌套）。就像在 compute_mu1_complexity 和 compute_mu2_complexity passes 中一样，分析模块的 AST 以找到模块语句在模块中的最大深度。 Pips的内部表示将switch语句表示为嵌套的测试语句，一个case的深度就是它在switch语句的case列表中的排名。在图 2 的示例中，计算出的主模块的 µ3 复杂度为 2。
+​	 Harrison[7]定义的嵌套复杂度在衡量程序的复杂度时使用程序的CFG来考虑节点的嵌套。对于控制流的每个节点，程序的复杂性增加了该节点的 Halstead 复杂性加上其范围内的节点数加上每个节点的 Halstead 复杂性。
 
-## 4.扇入/扇出复杂度c4
+ 实施 Harrison 复杂度的实际定义会引入 Halstead 复杂度（µ1 复杂度）和 McCabe 复杂度的冗余，因为这种复杂度试图取代这两种复杂度。因此，我们将一个模块的μ3复杂度重新定义为该模块中谓词嵌套的最大深度。这个新定义将补充 MacCabe 的复杂性。 MacCabe 的复杂性会刺激谓词的出现，而我们的 µ3 复杂性会刺激它们的嵌套（而且只是它们的嵌套）。就像在 compute_mu1_complexity 和 compute_mu2_complexity passes 中一样，分析模块的 AST 以找到模块语句在模块中的最大深度。 Pips的内部表示将switch语句表示为嵌套的测试语句，一个case的深度就是它在switch语句的case列表中的排名。在图 2 的示例中，计算出的主模块的 µ3 复杂度为 2。
 
-扇入、扇出表示函数之间的调用关系。
+## 4.数据流复杂度c4
 
-扇入指直接调用该模块的上级模块的个数；扇出指该模块直接调用的下级模块的个数。
-
-扇入大表示模块的复用程度高；扇出大表示模块的复杂度高。
+[数据流分析_z2664836046的博客-CSDN博客_数据流分析](https://blog.csdn.net/z2664836046/article/details/88742210)
 
 > 3.1.4 The µ4 complexity (Data flow complexity)
 > 	The µ4 complexity reflects the data flow complexity by adding the distances between the declaration of variables and their actual usage. For instance, global variable are usually harder to manipulate than local one and more generally, the longer a variable’s scope is, the more complicated it is for an attacker to track the variable manipulation. The goal of the µ4 complexity is therefore to count the number of variables that are defined outside of the blocks where they are used in (e.g. global variables, same variables used in different blocks). Here, blocks are semantical blocks of the module, and although it would be more accurate for the splitting to be adapted to the given module semantic, we had to decide for a splitting strategy that would be the same for every module that can be met since we want the pass to be completely automatic.
@@ -154,11 +142,19 @@ V（G） ≥ 16，代码必须进行重构、
 
 3.1.4 µ4复杂度（数据流复杂度）
 
-µ4 复杂度通过添加变量声明与其实际使用之间的距离来反映数据流的复杂度。例如，全局变量通常比局部变量更难操纵，更一般地说，变量的范围越长，攻击者跟踪变量操纵就越复杂。因此，µ4 复杂度的目标是计算在使用它们的块之外定义的变量的数量（例如，全局变量、在不同块中使用的相同变量）。在这里，块是模块的语义块，虽然根据给定的模块语义进行拆分会更准确，但我们必须决定一个拆分策略，该策略对于每个可以满足的模块都是相同的，因为我们希望通行证是完全自动的。 在实践中，我们选择的拆分策略操作如下：循环（条件和主体）、测试分支和语法块（括号之间的代码部分）被视为原子块。此外，当循环、测试或黑色语句结束时，将打开一个新块。循环、测试和语法块构成了具有自身连贯性的自然语义块，并且在由块分隔的代码的两个区域中使用的变量更难估计，因为它可能已在该块中被修改。当给定模块的 AST 并提供可接受的解决方案时，这种拆分模式很容易应用，尽管不是最优的（通过更精确地适应给定程序的拆分可以找到最佳拆分），到 拆分问题。 当模块被分成块时，它的 µ4 复杂度是它的块的 µ4 复杂度的总和。块的 µ4 复杂度是该块中使用但未定义的变量数。如果同一个变量在一个块中被多次使用，我们将在每次使用它而没有在当前块中定义时对其进行计数。备注：这个数据流复杂度的定义将变量影响视为变量使用而不是变量定义。此外，在降低 µ4 复杂度时可能会考虑其他绑定操作。在清单 3 的示例中，计算出的主模块的 µ4 复杂度为 15。
+​	µ4 复杂度通过添加变量声明与其实际使用之间的距离来反映数据流的复杂度。例如，全局变量通常比局部变量更难操纵，更一般地说，变量的范围越长，攻击者跟踪变量操纵就越复杂。因此，µ4 复杂度的目标是计算在使用它们的块之外定义的变量的数量（例如，全局变量、在不同块中使用的相同变量）。在这里，块是模块的语义块，虽然根据给定的模块语义进行拆分会更准确，但我们必须决定一个拆分策略，该策略对于每个可以满足的模块都是相同的，因为我们希望通行证是完全自动的。
 
-## 5.数据流复杂度c5
+​	 在实践中，我们选择的拆分策略操作如下：循环（条件和主体）、测试分支和语法块（括号之间的代码部分）被视为原子块。此外，当循环、测试或黑色语句结束时，将打开一个新块。循环、测试和语法块构成了具有自身连贯性的自然语义块，并且在由块分隔的代码的两个区域中使用的变量更难估计，因为它可能已在该块中被修改。当给定模块的 AST 并提供可接受的解决方案时，这种拆分模式很容易应用，尽管不是最优的（通过更精确地适应给定程序的拆分可以找到最佳拆分），到 拆分问题。 
 
-[数据流分析_z2664836046的博客-CSDN博客_数据流分析](https://blog.csdn.net/z2664836046/article/details/88742210)
+​	当模块被分成块时，它的 µ4 复杂度是它的块的 µ4 复杂度的总和。块的 µ4 复杂度是该块中使用但未定义的变量数。如果同一个变量在一个块中被多次使用，我们将在每次使用它而没有在当前块中定义时对其进行计数。备注：这个数据流复杂度的定义将变量影响视为变量使用而不是变量定义。此外，在降低 µ4 复杂度时可能会考虑其他绑定操作。在清单 3 的示例中，计算出的主模块的 µ4 复杂度为 15。
+
+## 5.扇入/扇出复杂度c5
+
+扇入、扇出表示函数之间的调用关系。
+
+扇入指直接调用该模块的上级模块的个数；扇出指该模块直接调用的下级模块的个数。
+
+扇入大表示模块的复用程度高；扇出大表示模块的复杂度高。
 
 > 3.1.5 The µ5 complexity (Fan-in/out complexity)
 > 	Henry and kafura defined a software measure based on information flow [8] as length∗(f anin ∗f anout)∗∗2, length being the µ1 complexity or McCabe complexity of the module. The f anin of a module M is the number of local flow into M plus the number of data structures read by M, The f anout of a module M is the number of local flow from M plus the number of data structures in which M writes.
@@ -175,8 +171,8 @@ V（G） ≥ 16，代码必须进行重构、
 
 
 3.1.5 µ5 复杂度（扇入/出复杂度）
-Henry 和 kafura 定义了一种基于信息流的软件度量 [8] 为 length∗(f anin ∗f anout)∗2，长度为模块的 µ1 复杂度或 McCabe 复杂度。一个模块M的fanin是进入M的本地流的数量加上M读取的数据结构的数量，一个模块M的fanout是来自M的本地流的数量加上M写入的数据结构的数量.
-为了避免冗余并保持复杂度线性（2 的次方只是一个权重），µ5 复杂度已重新定义为 f anin ∗ f anout 的乘积。在 C 语言中，指针的使用使得变量的概念不如内存槽的概念那么合理 fanin 和 fanout 定义可以这样理解：模块 M 的 fanin 计算为调用 M 的模块数加上M 的读取效果数。模块 M 的 f anout 计算为 M 调用的模块数加上 M 的写入效果数。在清单 4 的示例中，计算出的模块 foo 的 µ5 复杂度为3（foo被调用一次，读取变量b，matrix写入，写入变量matrix，扇入为3，扇出为1），模块main的µ5为2。总共µ5该程序是 5。
+	Henry 和 kafura 定义了一种基于信息流的软件度量 [8] 为 length∗(f anin ∗f anout)∗2，长度为模块的 µ1 复杂度或 McCabe 复杂度。一个模块M的fanin是进入M的本地流的数量加上M读取的数据结构的数量，一个模块M的fanout是来自M的本地流的数量加上M写入的数据结构的数量.
+	为了避免冗余并保持复杂度线性（2 的次方只是一个权重），µ5 复杂度已重新定义为 f anin ∗ f anout 的乘积。在 C 语言中，指针的使用使得变量的概念不如内存槽的概念那么合理 fanin 和 fanout 定义可以这样理解：模块 M 的 fanin 计算为调用 M 的模块数加上M 的读取效果数。模块 M 的 f anout 计算为 M 调用的模块数加上 M 的写入效果数。在清单 4 的示例中，计算出的模块 foo 的 µ5 复杂度为3（foo被调用一次，读取变量b，matrix写入，写入变量matrix，扇入为3，扇出为1），模块main的µ5为2。总共µ5该程序是 5。
 
 ## 6.数据结构复杂度c6
 
@@ -215,7 +211,7 @@ Henry 和 kafura 定义了一种基于信息流的软件度量 [8] 为 length∗
 
 
 3.1.6 The µ6 complexity（数据结构复杂度）
-变量的 µ6 复杂度的常规定义是该变量的维数（例如，向量的 µ6 复杂度为 1，矩阵的 µ6 复杂度为 2）。因为在 C 中，数据结构的维数与其他语言中的语义值不同。变量的 µ6 复杂度已重新定义为其大小（以字节为单位）。然而，这给指针带来了问题。例如：虽然图片通常被建模为像素的二维矩阵，但它可以存储在一维数组中，其中像素 (i,j) 将位于 j + width ∗ i 位置。此外，如果声明了一个没有维度的数组，并且稍后在代码中动态分配其内存，则无法静态知道其维度。应考虑动态分配，因为从混淆的角度来看，动态分配大小的变量比静态大小的变量更复杂。它使用 µ1 复杂度处理：被调用分配函数（例如 malloc、calloc）的参数内的操作数和运算符的数量被添加到应用分配函数的变量的 mu6 复杂度。
-为了处理动态大小的数组（例如 int v[n];），在计算程序的 µ6 复杂度之前调用 approximate_eval pass 以用变量值的上限替换变量。如果无法静态计算变量的大小并且无法计算其大小的上限，则假定变量大小为 1。最后，对于完整模块，其 µ6 复杂度是每个相关变量的 µ6 复杂度之和。在清单 5 的示例中，计算出的 main 模块的 µ6 复杂度为 63（在 k 的声明中，i 已通过 pass approximate eval 近似为 3）。
+	变量的 µ6 复杂度的常规定义是该变量的维数（例如，向量的 µ6 复杂度为 1，矩阵的 µ6 复杂度为 2）。因为在 C 中，数据结构的维数与其他语言中的语义值不同。变量的 µ6 复杂度已重新定义为其大小（以字节为单位）。然而，这给指针带来了问题。例如：虽然图片通常被建模为像素的二维矩阵，但它可以存储在一维数组中，其中像素 (i,j) 将位于 j + width ∗ i 位置。此外，如果声明了一个没有维度的数组，并且稍后在代码中动态分配其内存，则无法静态知道其维度。应考虑动态分配，因为从混淆的角度来看，动态分配大小的变量比静态大小的变量更复杂。它使用 µ1 复杂度处理：被调用分配函数（例如 malloc、calloc）的参数内的操作数和运算符的数量被添加到应用分配函数的变量的 mu6 复杂度。
+	为了处理动态大小的数组（例如 int v[n];），在计算程序的 µ6 复杂度之前调用 approximate_eval pass 以用变量值的上限替换变量。如果无法静态计算变量的大小并且无法计算其大小的上限，则假定变量大小为 1。最后，对于完整模块，其 µ6 复杂度是每个相关变量的 µ6 复杂度之和。在清单 5 的示例中，计算出的 main 模块的 µ6 复杂度为 63（在 k 的声明中，i 已通过 pass approximate eval 近似为 3）。
 
 ## 7.面向对象复杂度c7
