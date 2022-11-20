@@ -1,10 +1,10 @@
 ---
 title: springCloud笔记(1)
 date: 2022.11.18
-updated:
+updated: 2022.11.18
 type: 
 comments:
-description:
+description: 
 keywords:
 top_img: 
 mathjax:
@@ -12,6 +12,10 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
+categories: 
+  - study
+tags:
+  - springcloud
 ---
 [Spring Cloud 学习笔记（2 / 3）](https://blog.csdn.net/u011863024/article/details/114298282)
 

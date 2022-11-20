@@ -12,6 +12,10 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
+categories: 
+  - interesting
+tags:
+  - qemu虚拟化
 ---
 基本原理：用qemu-user半虚拟化技术与Docker技术融合。  
 实验环境：Ubuntu16.04 (Ubuntu14.04亲测可用) docker version 1.13.0  

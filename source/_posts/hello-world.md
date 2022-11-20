@@ -2,6 +2,21 @@
 title: Hello World
 date: 2022.11.12
 top_img: https://img-cnd.noel.ga/blog/covers/5.jpg
+updated: 2022.11.13
+type: 
+comments:
+description:
+keywords:
+mathjax:
+katex:
+aside:
+aplayer:
+highlight_shrink:
+categories: 
+  - default
+tags:
+  - default
+
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -46,4 +61,3 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 主题文档查看 https://butterfly.js.org/
 
-![64450274_p0_master1200](https://auburn-swallow.pikapod.net/No.1/picgo/raw/branch/master/img/202211141346043.jpg)

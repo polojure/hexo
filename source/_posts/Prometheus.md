@@ -8,6 +8,10 @@ date: 2022.11.16
 publisher: null
 top_img: https://img-cnd.noel.ga/blog/covers/4.jpg
 stats: paragraph=38 sentences=3, words=46
+categories: 
+  - tasks
+tags:
+  - prometheus
 ---
 **Prometheus**是一个系统和服务监视系统。它以给定的时间间隔从已配置的目标收集指标，评估规则表达式，显示结果，并在发现某些情况为真时触发警报。
 

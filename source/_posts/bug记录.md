@@ -1,7 +1,7 @@
 ---
 title: bug记录
 date: 2022.11.13
-updated:
+updated: 2022.11.13
 type: 
 comments:
 description:
@@ -12,6 +12,10 @@ katex:
 aside:
 aplayer:
 highlight_shrink:
+categories: 
+  - default
+tags:
+  - bug&feat
 ---
 
 ## 1.插件
