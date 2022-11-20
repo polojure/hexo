@@ -3,6 +3,7 @@ title: {{ title }}
 date: {{ date }}
 updated: 
 type: 
+cover:
 comments:
 cover:
 description: 

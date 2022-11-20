@@ -6,7 +6,7 @@ type:
 comments:
 description: 
 keywords:
-top_img: 
+top_img: https://gitea.noel.ga/picgo/lxy-img/raw/branch/master/img/202211202343194.jpg
 mathjax:
 katex:
 aside:

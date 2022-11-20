@@ -6,7 +6,7 @@ keywords: 容器,Docker,Node.js,网站,TCP/IP
 author: 
 date: 2022.11.16
 publisher: null
-top_img: https://img-cnd.noel.ga/blog/covers/4.jpg
+top_img: https://gitea.noel.ga/picgo/lxy-img/raw/branch/master/img/202211202343193.jpg
 stats: paragraph=38 sentences=3, words=46
 categories: 
   - tasks

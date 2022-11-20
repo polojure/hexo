@@ -3,11 +3,11 @@ title: bug记录
 date: 2022.11.13
 updated: 2022.11.13
 type: 
-# cover: https://img-cnd.noel.ga/blog/covers/3.jpg
+cover: 
 comments:
 description:
 keywords:
-top_img: https://img-cnd.noel.ga/blog/covers/3.jpg
+top_img: hhttps://gitea.noel.ga/picgo/lxy-img/raw/branch/master/img/202211202343188.jpg
 mathjax:
 katex:
 aside:

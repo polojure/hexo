@@ -5,7 +5,7 @@ updated: 2022.11.20
 comments:
 description:
 keywords:
-top_img: https://img-cnd.noel.ga/blog/covers/1.jpg
+top_img: https://gitea.noel.ga/picgo/lxy-img/raw/branch/master/img/202211202343190.jpg
 mathjax:
 katex:
 aside:
