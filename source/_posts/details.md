@@ -76,7 +76,7 @@ tags:
 
   圈复杂度的计算有三种方式，这三种方式根据程序流图进行计算，是很容易理解的。以下图程序流图为例。
 
-![img](E:\anyview-task\综合评分\details.assets\watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwNTUzNjEz,size_16,color_FFFFFF,t_70.png)
+![image-20221120110335107](https://gitea.noel.ga/picgo/lxy-img/raw/branch/master/img/202211201103194.png)
 
 ##### 【1】V(G) = e - n + 2p
 
