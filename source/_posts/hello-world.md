@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2022.11.12
-top_img: https://gitea.noel.ga/picgo/lxy-img/raw/branch/master/img/202211202343191.jpg
+top_img: https://picture.noel.ga/202211210024386.jpg
 updated: 2022.11.13
 type: 
 comments:
