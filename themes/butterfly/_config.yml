@@ -315,7 +315,7 @@ valine:
   appId: 18zopvSx8sprPanLJ1KQZoQX-MdYXbMMI # leancloud application app id
   appKey: H35C2gs8XyK3FMIK02gjDk6B # leancloud application app key
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: https://18zopvsx.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://leancloud-api.noel.ga # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: true
   option:
