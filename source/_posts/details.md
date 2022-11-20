@@ -64,11 +64,11 @@ tags:
 
 ```c
 #include <stdio.h> 
-/∗ Computed mu1 complexity of this module: 16 ∗/
+// Computed mu1 complexity of this module: 16 
 int main() {
 	int i ;
 	for (i=0;i<15;i++) {
-		printf (”iteration %d\n”,i);
+		printf ("iteration %d\n",i);
 	}
 	return 0;
 }
@@ -123,13 +123,13 @@ int main() {
 	int i = 0;
 	int j = 0;
 	while (i<16) {
-		printf (”iteration %d\n”, i);
+		printf ("iteration %d\n", i);
 		if (i>2) {
 			j+=i;
 		}
 	}
 	if ( j >= 3) {
-		printf (”j is greater than 3\n”);
+		printf ("j is greater than 3\n");
 	}
 	return 0;
 }
@@ -225,9 +225,9 @@ int main() {
 > typedef struct { int champ1; int champ2; long champ3; } t;
 > /∗ Computed mu6 complexity of this module: 63∗/
 > int main(){
-> 	char ∗ s = ”ma variable”;
-> 	char x[] = ”hello world ha ha”;
-> 	char r[5] = ”abcde”;
+> 	char ∗ s = "ma variable";
+> 	char x[] = "hello world ha ha";
+> 	char r[5] = "abcde";
 > 	int i ;
 > 	t myt = {2,3,4};
 > 	if (myt.champ1 > 2){
