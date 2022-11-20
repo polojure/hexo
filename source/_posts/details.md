@@ -62,6 +62,21 @@ tags:
 
 **可参考**: [halstead计算复杂度](https://github.com/aametwally/Halstead-Complexity-Measures)
 
+```c
+#include <stdio.h> 
+/∗ Computed mu1 complexity of this module: 16 ∗/
+int main() {
+	int i ;
+	for (i=0;i<15;i++) {
+		printf (”iteration %d\n”,i);
+	}
+	return 0;
+}
+			//Listing 1: Example of µ1 complexity.
+```
+
+
+
 ## 2.圈复杂度c2
 
 ### T.McCabe度量法（圈复杂度）
@@ -99,6 +114,29 @@ tags:
 V（G） ≥ 16，代码必须进行重构、
 
 **可参考**：[GitHub - ephox-gcc-plugins/cyclomatic_complexity：基于 gcc 内部表示计算函数的圈复杂度。](https://github.com/ephox-gcc-plugins/cyclomatic_complexity)
+
+```c
+#include <stdio.h> 
+/∗ Computed mu2 complexity of this module: 4∗/ 
+/∗ Computed mu3 complexity of this module: 2∗/
+int main() {
+	int i = 0;
+	int j = 0;
+	while (i<16) {
+		printf (”iteration %d\n”, i);
+		if (i>2) {
+			j+=i;
+		}
+	}
+	if ( j >= 3) {
+		printf (”j is greater than 3\n”);
+	}
+	return 0;
+}
+		//Listing 2: Example of µ2 and µ3 complexity.
+```
+
+
 
 ## 3.嵌套复杂度c3
 
