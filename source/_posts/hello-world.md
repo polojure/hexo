@@ -3,6 +3,7 @@ title: Hello World
 date: 2022.11.12
 top_img: https://picture.noel.ga/202211210024386.jpg
 updated: 2022.11.13
+cover: https://s3.uuu.ovh/imgs/2022/11/21/0d3eeb594299462b.jpg
 type: 
 comments:
 description:

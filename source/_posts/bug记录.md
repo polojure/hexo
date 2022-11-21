@@ -3,7 +3,7 @@ title: bug记录
 date: 2022.11.13
 updated: 2022.11.13
 type: 
-cover: 
+cover: https://s3.uuu.ovh/imgs/2022/11/21/16e73528a7b22e8e.webp
 comments:
 description:
 keywords:

@@ -4,6 +4,7 @@ title: docker容器部署Prometheus服务——云平台监控利器
 description: Prometheus是一个系统和服务监视系统。它以给定的时间间隔从已配置的目标收集指标，评估规则表达式，显示结果，并在发现某些情况为真时触发警报。
 keywords: 容器,Docker,Node.js,网站,TCP/IP
 author: 
+cover: https://s3.uuu.ovh/imgs/2022/11/21/b72438f70f97b881.png
 date: 2022.11.16
 publisher: null
 top_img: https://picture.noel.ga/202211210024388.jpg

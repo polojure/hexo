@@ -4,6 +4,7 @@ date: 2022.11.16
 updated:
 type: 
 comments:
+cover: https://s3.uuu.ovh/imgs/2022/11/21/88fce38f14d053c7.jpg
 description:
 keywords:
 top_img: https://picture.noel.ga/202211210024387.jpg

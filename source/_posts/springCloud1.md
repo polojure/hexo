@@ -3,6 +3,7 @@ title: springCloud笔记(1)
 date: 2022.11.18
 updated: 2022.11.18
 type: 
+cover: https://s3.uuu.ovh/imgs/2022/11/21/f42d89fd5cc9449d.jpg
 comments:
 description: 
 keywords:
