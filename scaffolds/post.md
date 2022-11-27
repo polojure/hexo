@@ -5,7 +5,6 @@ updated:
 type: 
 cover:
 comments:
-cover:
 description: 
 keywords:
 top_img: 
