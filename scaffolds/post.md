@@ -3,8 +3,8 @@ title: {{ title }}
 date: {{ date }}
 updated: 
 type: 
-comments:
 cover:
+comments:
 description: 
 keywords:
 top_img: 
