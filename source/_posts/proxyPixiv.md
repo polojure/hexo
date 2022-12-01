@@ -23,7 +23,11 @@ highlight_shrink:
 
 # 记录一次反代pixiv的过程
 
-参考 [[Pixiv] Nginx 真·反代P站](https://img-cnd.noel.ga/html/%5BPixiv%5D%20Nginx%20%E7%9C%9F%C2%B7%E5%8F%8D%E4%BB%A3P%E7%AB%99%20-%20%E7%A5%9E%E4%BB%A3%E7%B6%BA%E5%87%9B%E3%81%AE%E9%9A%8F%E6%B3%A2%E9%80%90%E6%B5%81%20%282022_12_1%2012_28_00%29.html)
+
+
+> **参考** [[Pixiv] Nginx 真·反代P站](https://img-cnd.noel.ga/html/%5BPixiv%5D%20Nginx%20%E7%9C%9F%C2%B7%E5%8F%8D%E4%BB%A3P%E7%AB%99%20-%20%E7%A5%9E%E4%BB%A3%E7%B6%BA%E5%87%9B%E3%81%AE%E9%9A%8F%E6%B3%A2%E9%80%90%E6%B5%81%20%282022_12_1%2012_28_00%29.html)
+
+
 
 ```nginx
 # *.junezate.ml
@@ -116,7 +120,7 @@ server
 
 ## cloudflare worker
 
-因为vps小水管加载速度不太行，因此除了www.pixiv.net在nginx进行反向代理（这个貌似用cloudflare worker代理不了，反正我是失败了），source.pixiv.net，pximg.net，i-cf.pximg.net（好像还有个s.pixiv.net,但是不知道为什么后面加载没遇到了）均使用cloudflare worker进行反向代理获取，都是些css，js，img类型内容，代理方式大致如下：
+因为vps小水管加载速度不太行，因此除了  www.pixiv.net  在nginx进行反向代理（这个貌似用cloudflare worker代理不了，反正我是失败了），source.pixiv.net，pximg.net，i-cf.pximg.net（好像还有个s.pixiv.net,但是不知道为什么后面加载没遇到了）均使用cloudflare worker进行反向代理获取，都是些css，js，img类型内容，代理方式大致如下：
 
 ```js
 addEventListener("fetch", event => {
